@@ -15,6 +15,13 @@ Open [localhost:3000](http://localhost:3000).
 
 Docker retains data between runs; `npm run db:down` stops the container without deleting its data. The seed runs skips existing rows with IDs, so running it again preserves edits.
 
+```
+npm run db:studio
+```
+Open https://local.drizzle.studio/
+For drizzle db studio
+
+
 ## Checks
 
 ```sh
